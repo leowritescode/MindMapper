@@ -1,0 +1,42 @@
+* { 
+  box-sizing: border-box ;
+}
+
+html , body, div {
+  padding: 0 ;
+  margin: 0 ;
+  height: 100% ;
+}
+
+.container {
+  width: 100% ;
+  border-style: solid ;
+  border-width: 0.10em ;
+}
+
+#main-container {
+  height: 84.55% ;
+  /*background-color: blue ;*/
+}
+
+#toolbox-container {
+  height: 15.45% ;
+  background-color: #46CC89 ;
+  text-align: center;
+}
+
+.toolbox-buttons li {
+  list-style-type: none ;
+  display: inline ;
+}
+
+.toolbox-buttons li:before {
+    font-size: 5em ;
+}
+
+/*
+ * margin: 0 ;
+ * padding: 0 ;
+ * background-color: yellow ;
+ * font-size: 2em ;
+ */
